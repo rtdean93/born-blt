@@ -5,12 +5,19 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "acquia/blt": "^9.1.0"
+        "acquia/blt": "^9.1.0",
+        "born/genesis": "^1.0"
     },
-    "require-dev": {},
+    "require-dev": {
+        "geerlingguy/drupal-vm": "^4.8"
+    },
     "config": {
         "sort-packages": true
     },
+    "repositories": [
+        {"type": "composer", "url": "https://repo.packagist.com/born-group/"},
+        {"packagist.org": false}
+    ],
     "extra": {
         "enable-patching": true,
         "installer-types": [
