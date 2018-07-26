@@ -1,0 +1,10 @@
+dev:
+  root: /var/www/html/freebirdz.dev/docroot
+  uri: freebirdzddnedvqdwt.devcloud.acquia-sites.com
+  host: free-7614.devcloud.hosting.acquia.com
+  user: freebirdz.dev
+test:
+  root: /var/www/html/freebirdz.test/docroot
+  uri: freebirdz5caezzmrky.devcloud.acquia-sites.com
+  host: free-7614.devcloud.hosting.acquia.com
+  user: freebirdz.test
