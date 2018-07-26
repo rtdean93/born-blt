@@ -10,7 +10,7 @@ project:
 git:
   default_branch: master
   remotes:
-    - git@github.com:rtdean93/born-blt.git
+    cloud: 'freebirdz@svn-3239.devcloud.hosting.acquia.com:freebirdz.git'
 drush:
   aliases:
     remote: '${project.machine_name}.test'
